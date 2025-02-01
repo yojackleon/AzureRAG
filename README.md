@@ -12,8 +12,13 @@ The plan is as follows: -
 5. Add the following subjects: English Literature, English Language, History, Ethics, Sociology.
 6. Add the ability to evaluation weekly homework based on progress against the curriculum, and provide constructive suggestions. 
 
-RAG Data pipeline
+# The Data
 
 1. Store Subject specs published by exam boards in folder Subject Specs with filename
-<examboard>-<level>-<subject>-specification
-where level is GCSE for us
+   
+`<examboard>-<level>-<subject>-<year>-specification`
+
+Where: - 
+- Level is GCSE for us
+- Year is the year the spec was released
+
